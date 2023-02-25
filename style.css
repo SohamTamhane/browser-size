@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-div{
+    background-color: #0a192f;
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box-div{
+    background-color: rgb(129 148 176 / 23%);
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 40%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(129 148 176 / 23%);
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 0px;
+}
+
+#copied-text-div{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: none;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    background-color: #97f280;
+    font-family: 'Golos Text', sans-serif;
+    padding: 7px 0px;
+}
