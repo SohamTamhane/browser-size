@@ -19,8 +19,6 @@ function disapper_div_func(){
     copied_text_div.style.display = 'none';
 }
 
-
-
 var copy_div = document.getElementById('copy-div');
 var copied_text_div = document.getElementById('copied-text-div');
 
